@@ -1,7 +1,8 @@
 from os import getcwd
 import Prettyconf
 import Configuration
-import Prettyconf.loaders import EnvFile, Environment
+import Prettyconf.loaders
+import EnvFile, Environment
 
 env_file = f"{getcwd()}/.env"
 config = Configuration(loaders=[Environment(), EnvFile(filename=env_file)])
