@@ -1,5 +1,5 @@
 from os import getcwd
-import Configuration
+from Configuration
 import EnvFile, Environment
 
 env_file = f"{getcwd()}/.env"
