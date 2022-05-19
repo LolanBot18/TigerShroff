@@ -159,12 +159,12 @@ async def next_page(bot, query):
             )
     btn.insert(0,
             [
-                InlineKeyboardButton("⭕️ Group", url="https://t.me/cinemaenglish123"),
-                InlineKeyboardButton("Dev ⭕️", url="https://t.me/abhisheksvlog")
+                InlineKeyboardButton("🧬 GᖇOᑌᑭ 🧬", url="https://t.me/ML_MOVIE_LOKAM"),
+                InlineKeyboardButton("🤴 ᗪEᐯ", url="https://t.me/Bad_Bunny_444")
             ])
 
     btn.insert(0, [
-        InlineKeyboardButton("🤖 Check Bot PM First 🤖", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("🤖 ᑕᕼEᑕK ᗷOT ᑭᗰ ᖴIᖇST 🤖", url=f"https://t.me/{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -256,7 +256,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 except:
                     pass
             else:
-                await query.answer("Buddy Don't Touch Others Property 😁", show_alert=True)
+                await query.answer("ബ്രോ മറ്റുള്ളവർ Search ചെയ്‍തത്തിൽ കൈ ഇടാതെ,സ്വന്തം ആയി Search ചെയ്യൂ", show_alert=True)
     elif "groupcb" in query.data:
         await query.answer()
 
@@ -412,11 +412,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{files.file_name}"
         buttons = [
             [
-                InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('Dᴇᴠ', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🧬 GᖇOᑌᑭ 🧬', url='https://t.me/ML_MOVIE_LOKAM')
+                InlineKeyboardButton('🤴ᗪEᐯ', url='https://t.me/Bad_Bunny_444')
             ],
             [
-                InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('ᑕᕼᗩᑎᑎEᒪ', url=f'https://t.me/ML_MOVIE_LOKAM')
             ]
             ]
 
@@ -465,11 +465,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             f_caption = f"{title}"
         buttons = [
             [
-                InlineKeyboardButton('Gʀᴏᴜᴏ', url='https://t.me/cinemaenglish123'),
-                InlineKeyboardButton('Dᴇᴠ', url='https://t.me/Abhisheksvlog')
+                InlineKeyboardButton('🧬 GᖇOᑌᑭ 🧬', url='https://t.me/ML_MOVIE_LOKAM'),
+                InlineKeyboardButton('🤴ᗪEᐯ', url='https://t.me/Bad_Bunny_444')
             ],
             [
-                InlineKeyboardButton('Cʜᴀɴᴇᴇʟ', url=f'https://t.me/justaupdatechannel')
+                InlineKeyboardButton('🔰ᑕᕼᗩᑎᑎEᒪ🔰', url='https://t.me/ML_MOVIE_LOKAM')
             ]
             ]
         await query.answer()
@@ -489,7 +489,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                 InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="rmbgsticker"),
                 ],[
-                InlineKeyboardButton('✶ 𝖡𝖺𝖼𝗄', callback_data='photo')
+                InlineKeyboardButton('✶ ᗷᗩᑕK', callback_data='photo')
              ]]
         ),)
     elif query.data == "stick":
@@ -730,19 +730,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✗ Cʟᴏsᴇ Tʜᴇ Mᴇɴᴜ ✗', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -835,19 +829,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="▣▣▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -910,30 +898,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')
             ],[
-            InlineKeyboardButton('🔍Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
+            InlineKeyboardButton('🔍SEᗩᖇᑕᕼ ᗩᑎY ᗰOᐯIE🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🍿Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ🍿', url='https://t.me/Cinemaenglish123')
+            InlineKeyboardButton('🍿ᗰOᐯIE ᖇEᑫᑌEST GᖇOᑌᑭ 🍿', url='https://t.me/ML_MOVIE_LOKAM')
             ],[
-            InlineKeyboardButton('Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs', callback_data='help')
+            InlineKeyboardButton('ᕼEᒪᑭ & ᑕOᗰᗰᗩᑎᗪS', callback_data='help')
             ],[
             InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data'),
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▣▢▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣▣▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
-        )
+            text="▣▣▣"
+        )       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
