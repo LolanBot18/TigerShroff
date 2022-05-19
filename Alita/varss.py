@@ -1,6 +1,6 @@
 from os import getcwd
-import Prettyconf
-import Configuration
+from import Prettyconf
+from import Configuration
 import Prettyconf.loaders
 import EnvFile, Environment
 
